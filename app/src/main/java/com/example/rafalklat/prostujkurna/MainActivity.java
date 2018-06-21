@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView tekst = (TextView) findViewById(R.id.tekst);
-        tekst.setText("Jak klikniesz START, to co " + INTERVAL/60/1000 + "min będzie wibrowało. STOP zatrzyma tę farsę.");
+        tekst.setText(R.string.description);
 
         TextView titel = (TextView) findViewById(R.id.titel);
-        titel.setText("PROSTUJ KURNA!!!");
+        titel.setText(R.string.app_name);
 
         Button startVibrations = (Button) findViewById(R.id.startVibrations);
         startVibrations.setOnClickListener( new View.OnClickListener() {

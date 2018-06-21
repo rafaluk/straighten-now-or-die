@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Prostuj kurna</string>
+    <string name="description">Jak klikniesz START, to co 15min będzie wibrowało. STOP zatrzyma tę farsę.</string>
+</resources>
